@@ -1,0 +1,11 @@
+﻿<Application x:Class="Hitomi.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ImageSource x:Key="Icon">pack://application:,,,/hitomi.ico</ImageSource>
+        <ContextMenu x:Key="Menu">
+            <MenuItem Header="Exit" Click="Exit_OnClick"/>
+        </ContextMenu>
+    </Application.Resources>
+</Application>
